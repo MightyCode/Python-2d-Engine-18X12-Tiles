@@ -1,0 +1,42 @@
+{
+	"reloading": {
+		"view": "camView"
+	},
+	"shaders": {
+		"box": {
+			"files": [
+				"boxVert.glsl",
+				"boxFrag.glsl"
+			],
+			"mode" : ["camView"]
+		},
+		"texture": {
+			"files": [
+				"texVert.glsl",
+				"texFrag.glsl"
+			],
+			"mode" : ["camView"]
+		},
+		"texture-hud": {
+			"files": [
+				"texHudVert.glsl",
+				"texHudFrag.glsl"
+			],
+			"mode" : ["static"]
+		},
+		"text-hud": {
+			"files": [
+				"textHudVert.glsl",
+				"textHudFrag.glsl"
+			],
+			"mode" : ["static"]
+		},
+		"box-hud": {
+			"files" : [
+				"boxHudVert.glsl",
+				"boxHudFrag.glsl"
+			],
+			"mode" : ["static"]
+		}
+  }
+}

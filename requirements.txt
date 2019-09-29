@@ -1,0 +1,7 @@
+PyOpenGL
+glfw
+pillow
+pyrr
+colorama
+simplejson
+tkinter
